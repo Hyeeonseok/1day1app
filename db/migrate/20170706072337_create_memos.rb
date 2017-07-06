@@ -3,7 +3,7 @@ class CreateMemos < ActiveRecord::Migration
     create_table :memos do |t|
       t.string :title 
       t.text :content
-      t.belongs_to :user
+      t.integer :user_id
       
       t.timestamps null: false
     end

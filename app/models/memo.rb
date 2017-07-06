@@ -1,5 +1,5 @@
 class Memo < ActiveRecord::Base
-    belongs_to :users
+    belongs_to :user
     has_many :comments
     
     validates :title, presence: true, length: {maximum: 50}
