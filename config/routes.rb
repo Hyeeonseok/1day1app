@@ -1,7 +1,11 @@
 Rails.application.routes.draw do
+ 
+
   devise_for :users
   
-  resources :memos 
+  resources :memos #모든 route 끝내는 문장!  
+  
+  
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
