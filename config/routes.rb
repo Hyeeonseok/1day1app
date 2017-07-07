@@ -3,7 +3,7 @@ Rails.application.routes.draw do
   root 'memos#index'
   devise_for :users
   
-  resources :memos #모든 route 끝내는 문장!  
+  resources :memos #모든 route 한번에 끝내는 문장!  
   
   
   # The priority is based upon order of creation: first created -> highest priority.
