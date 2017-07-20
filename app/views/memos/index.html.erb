@@ -1,7 +1,6 @@
 <h1>Hack Your Memo</h1>
 
-<%= link_to('Memo 하러 가기', new_memo_path) if user_signed_in? %>
-<div class="table-responsive">
+<%= icon 'heart' %><%= link_to('Memo 하러 가기', new_memo_path) if user_signed_in?  %>
   <table class="table table-fit">
     <thead>
     <tr>
